@@ -1,0 +1,21 @@
+ASCII:
+
+-    Codifica a 7 bit.
+-    Compatibile con l'inglese e altri caratteri di base.
+-    Utilizzato per testo in lingua inglese e limitato per altre lingue.
+
+
+UTF-8:
+
+-    Variable-width encoding.
+-    Efficient for ASCII characters.
+-    Compatible with ASCII.
+-    More compact for Western languages.
+-    Cons: Takes more space for non-Latin characters.
+
+UTF-16:
+
+-    Fixed-width encoding (2 bytes per character).
+-    Efficient for non-Latin scripts.
+-    Cons: Wastes space for ASCII characters.
+-    Requires byte order mark (BOM) for endianness.
